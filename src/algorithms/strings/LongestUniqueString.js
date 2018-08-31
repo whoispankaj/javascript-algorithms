@@ -9,7 +9,6 @@ function longestUniqueString(str) {
   let currentIdx = 0;
   let maxLength = 0;
   let charMap = {};
-  //aabcde fe ae e higjeklmonprst
   while (startIdx < str.length && currentIdx < str.length) {
     //adding the === 0 condition because the index of the first element is 0 and is stored in the map
     if (
