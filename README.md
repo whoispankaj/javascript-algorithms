@@ -8,7 +8,7 @@ Steps:
 
 Tips:
 
-1. Arrays and Strings
+1. Arrays and Strings<br>
    a. Decide whether to use for loop, while loop.<br>
    b. Check if the condition is correct for iteration of the array till the end.<br>
    c .Check if you need to recompute anything after the loop.<br>
