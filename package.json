@@ -4,7 +4,7 @@
   "description": "Javascript Algorithms",
   "main": "index.js",
   "scripts": {
-    "test": "clear && jest"
+    "test": "jest"
   },
   "keywords": [
     "algorithms",
