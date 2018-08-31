@@ -12,6 +12,7 @@ Input: [7,6,4,3,1]
 Output: 0
 In this case there is no transacation done.so max-profilt will be 0
 */
+//Time Complexity O(n), Space Complexity O(1)
 function buyAndSellOnce(costs) {
   let minCostIdx = 0;
   let maxProfit = 0;
