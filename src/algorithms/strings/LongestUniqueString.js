@@ -18,14 +18,11 @@ function longestUniqueString(str) {
     ) {
       let length = currentIdx - startIdx;
       if (length > maxLength) {
-        console.log(startIdx, currentIdx, length, charMap);
         maxLength = length;
       }
-
       startIdx = charMap[str.charAt(currentIdx)] + 1;
       currentIdx = startIdx;
       charMap = {};
-      console.log('Incremented', startIdx, currentIdx, charMap);
     } else {
       charMap[str.charAt(currentIdx)] = currentIdx;
       currentIdx++;
