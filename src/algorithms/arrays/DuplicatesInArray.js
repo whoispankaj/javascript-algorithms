@@ -20,7 +20,7 @@
   if (!numbers || numbers.length <= 1) {
     return false;
   }
-  var numMap = {};
+  const numMap = {};
   let isUnique = true;
   isUnique = numbers.every(function(num) {
     if (numMap[num]) {
@@ -37,7 +37,7 @@ function duplicatesInArray(numbers) {
   if (!numbers || numbers.length <= 1) {
     return false;
   }
-  let numMap = {};
+  const numMap = {};
   let duplicateFound = false;
   duplicateFound = numbers.some(num => {
     if (numMap[num]) {
